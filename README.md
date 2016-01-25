@@ -3,7 +3,7 @@
 Removes old images and containers from the host.
 
 The container accepts an `INTERVAL` environment variable with the number of
-seconds to sleep before iterating.
+seconds to sleep before recurring.
 
 
 ## Run
@@ -13,7 +13,7 @@ seconds to sleep before iterating.
 docker run -d \
   -v hvar/run/docker.sock:/var/run/docker.sock \
   -v $(which docker):/usr/bin/docker \
-  andersjanmyr/clean-host
+  andersjanmyr/docker-clean-host
 ```
 
 
