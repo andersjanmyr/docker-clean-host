@@ -11,8 +11,7 @@ seconds to sleep before recurring.
 ```
 # Start the container with access to the docker bin and docker.sock
 docker run -d \
-  -v hvar/run/docker.sock:/var/run/docker.sock \
-  -v $(which docker):/usr/bin/docker \
+  -v /var/run/docker.sock:/var/run/docker.sock \
   andersjanmyr/docker-clean-host
 ```
 
