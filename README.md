@@ -1,5 +1,7 @@
 # Docker clean-host
 
+[![](https://images.microbadger.com/badges/image/andersjanmyr/docker-clean-host.svg)](https://microbadger.com/images/andersjanmyr/docker-clean-host "Get your own image badge on microbadger.com")
+
 Removes old images and containers from the host.
 
 The container accepts an `INTERVAL` environment variable with the number of
